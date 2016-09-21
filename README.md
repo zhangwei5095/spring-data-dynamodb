@@ -1,4 +1,16 @@
-# Spring Data DynamoDB ( Work in Progress ) #
+# Spring Data DynamoDB#
+
+Due to external time and project commitments, I'm no longer able to continue active development of this project as of January 2016.  Thank you to everyone involved in shaping the project over the past few years and thanks to all those who have raised issues and submitted pull requests over the time.
+
+@derjust has kindly offered to continue managing the progression of spring-data-dynamodb going forward - the latest version of the project can be found at the following fork:
+
+https://github.com/derjust/spring-data-dynamodb
+
+Thank you Sebastian for your help with the project to date and for this kind offer.
+
+Kind Regards,
+
+Michael
 
 The primary goal of the [Spring Data](http://www.springsource.org/spring-data) project is to make it easier to build Spring-powered applications that use data access technologies. This module deals with enhanced support for Amazon DynamoDB based data access layers.
 
@@ -13,6 +25,10 @@ The primary goal of the [Spring Data](http://www.springsource.org/spring-data) p
 
 For a demo of spring-data-dynamodb, using spring-data-rest to showcase DynamoDB repositories exposed with REST,
 please see <a href="https://github.com/michaellavelle/spring-data-dynamodb-demo">spring-data-dynamodb-demo
+## Version
+
+The major and minor number of this library refers to the compatible Spring framework compatibility:
+`4.2.n` is compatible with Spring framework `4.2.0`.
 
 ## Quick Start ##
 
@@ -22,7 +38,7 @@ Download the jar though Maven:
 ```xml
 <repository>
 	<id>opensourceagility-release</id>
-	<url>http://repo.opensourceagility.com/release</url
+	<url>http://repo.opensourceagility.com/release/</url
 </repository>
 ```
 
@@ -30,7 +46,7 @@ Download the jar though Maven:
 <dependency>
   <groupId>org.socialsignin</groupId>
   <artifactId>spring-data-dynamodb</artifactId>
-  <version>1.0.1.RELEASE</version>
+  <version>4.2.1</version>
 </dependency>
 ```
 
